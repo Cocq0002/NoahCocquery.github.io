@@ -130,7 +130,7 @@ zoom: 15%;
 /* top menu*/
 .menu {
     list-style-type: none;   
-    word-spacing: 25px;
+    word-spacing: 30px;
     margin: 0;
     padding: 0;
     font-size:20px;
@@ -151,7 +151,7 @@ zoom: 15%;
   }
     
   .menu-li a {
-    color: black;
+    color:black;
   }
   body{
     margin: 0px;
@@ -198,7 +198,7 @@ hr.link-line{
 /* profile*/
 
 .mainSectionProfile {
-  margin-left: 30%;
+  margin-left: 25%;
   padding-right: 0%;
   display: flex;
   padding-top: 5%;
@@ -218,7 +218,8 @@ hr.link-line{
   background-color: white;
 }
 .profile-image{
-  zoom: 40%;
+  height: 300px;
+  width: 300px 
 };
 .list-box h3{
   text-align: center;
