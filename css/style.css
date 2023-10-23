@@ -58,7 +58,7 @@ body{
   position: absolute;
   height: 2px;
   width: 20px;
-  background-color: #477152;
+  background-color: #4c74a2;
   border-radius: 50px;
   transition: 0.3s ease;
 }
@@ -139,9 +139,11 @@ zoom: 15%;
     position:fixed;
     top: 0;
     width: 100%;
-    border: 2px solid #477152;
+    border: 5px solid #385474;
     background-color: #4c74a2;
     z-index: 999;
+    border-bottom-left-radius:15%;
+    border-bottom-right-radius:15%;
   }
   
   .menu-li {
@@ -248,7 +250,7 @@ hr.link-line{
   font-size: 20px;
 }
 .dashboard-container{
-  background-color: #056c0f;
+  background-color: #4c74a2;
 }
 table, th, td{
   border: 3px solid #095b09;
