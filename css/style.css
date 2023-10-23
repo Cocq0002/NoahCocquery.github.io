@@ -1,6 +1,6 @@
 
 body{
-  background-color: #63af5c;
+  background-color: white ;
 }
 /* side bar menu with animation*/
 .slide{
@@ -12,6 +12,7 @@ body{
   /* or this 63af5c*/
   transition: 0.5s ease;
   transform: translateX(-180px);
+  margin-top:7%;
 }
 .list-side-menu-style{
   margin: 0;
@@ -44,7 +45,7 @@ body{
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 183px;
+  top: 150px;
   left: 10px;
   z-index:999;
   cursor: pointer;
@@ -104,7 +105,8 @@ input:checked ~.slide{
   text-align: center;
   text-decoration: underline;
   text-transform: capitalize;
-  padding-top: -5%;
+  padding-top: 10%;
+  margin-bottom: 10%;
 
 }
 .index-header-2 {
@@ -118,7 +120,7 @@ input:checked ~.slide{
   font-family: times;
 }
 .index-body-text{
-  border:3px solid black;
+  border:3px solid #4c74a2;
   border-radius: 15%;
   background-color: white;
 }
@@ -132,13 +134,13 @@ zoom: 15%;
     list-style-type: none;   
     word-spacing: 30px;
     margin: 0;
-    padding: 0;
+    padding: 40px;
     font-size:20px;
-    position: fixed;
+    position:fixed;
     top: 0;
     width: 100%;
     border: 2px solid #477152;
-    background-color: #056c0f;
+    background-color: #4c74a2;
     z-index: 999;
   }
   
@@ -151,7 +153,9 @@ zoom: 15%;
   }
     
   .menu-li a {
-    color:black;
+    color:wheat;
+    font-weight: bold;
+    text-transform: uppercase;
   }
   body{
     margin: 0px;
