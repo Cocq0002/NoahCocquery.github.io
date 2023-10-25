@@ -20,7 +20,7 @@ body{
   box-sizing: border-box;
 }
 .menu-header{
-  color: #477152;
+  color: #385474;
   font-weight: 800;
   text-align: right;
   padding: 10px 0;
@@ -106,7 +106,7 @@ input:checked ~.slide{
   text-decoration: underline;
   text-transform: capitalize;
   padding-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 
 }
 .index-header-2 {
@@ -117,7 +117,7 @@ input:checked ~.slide{
 .index-wrapper {
   margin: 0% 20% 20% 20%;
   text-align:center;
-  font-family: times;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .index-body-text{
   border:3px solid #4c74a2;
@@ -126,6 +126,7 @@ input:checked ~.slide{
 }
 .index-pic{
 zoom: 15%;
+padding-bottom:5%; 
 }
 
 
@@ -142,8 +143,7 @@ zoom: 15%;
     border: 5px solid #385474;
     background-color: #4c74a2;
     z-index: 999;
-    border-bottom-left-radius:15%;
-    border-bottom-right-radius:15%;
+
   }
   
   .menu-li {
@@ -151,7 +151,8 @@ zoom: 15%;
     border-right: 2px solid #bbb;
   }
   .active {
-    background-color: rgb(143, 239, 117);
+    background-color: lightslategray;
+    border-radius: 20%;
   }
     
   .menu-li a {
@@ -163,20 +164,22 @@ zoom: 15%;
     margin: 0px;
   }
   /* bottom links*/
-.index-links{
-  margin: 5% 0 0 42%;
+.cool-links-container{
+  position: relative;
+  bottom: 175px;
+  border:5px solid #4c74a2;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+
 }
 .index-link-text{
   font-size: 20px;
-  list-style-type: none;
-}
-
-hr.link-line{
-  border: 3px solid green;
+  text-align: center;
 }
 /* faq css*/
 .question-style{
-  background-color:#4e8749 ;
+  background-color:lightgray;
   height: 20px;
   width: 900px;
   font-size: 19px;
@@ -187,16 +190,17 @@ hr.link-line{
   width: 800px;
   font-family: 'Times New Roman', Times, serif;
   margin:  0 0 0 5px;
-  background-color: rgb(143, 239, 117) ;
+  background-color: white ;
+  border: 5px solid #385474; ;
 }
 .faq-container{
-  background-color:#4e8749;
+  background-color:lightgray;
   height: auto;
   width: 1000px;
   margin-left:auto ;
   margin-right: auto;
   border-radius: 10%;
-  border: 3px solid #095b09 ; 
+  border: 3px solid #385474; ; 
 }
 .faq-content{
   padding:  2% 0 0 5%;
@@ -209,6 +213,7 @@ hr.link-line{
   display: flex;
   padding-top: 5%;
 }
+
 .profile-wrapper{
   padding-right: 10%;
   text-align: center;
@@ -216,7 +221,7 @@ hr.link-line{
   font-size: 15px;
 }
 .profile-body-text{
-  border:3px dotted #095b09;
+  border:3px dotted #385474;
   border-radius: 15%;
   padding: 0 5% 0 5%;
   height:auto ;
@@ -240,7 +245,7 @@ hr.link-line{
   height: auto;
   width: 49%;
   position:relative;
-  border: 3px solid #095b09;
+  border: 3px solid #385474;
   border-radius: 5%;
 }
 /* dashboard*/
@@ -253,7 +258,8 @@ hr.link-line{
   background-color: #4c74a2;
 }
 table, th, td{
-  border: 3px solid #095b09;
+  border: 3px solid #385474;;
+  background-color: lightgray;
 }
 /* progress bar */
 
@@ -270,7 +276,7 @@ progress {
   position: relative;
   display: inline-block;
   /* change color of empty status bar */
-  background: white;
+  background: grey;
   height: 20px;
   border-radius: 6px;
   width: 100%;
@@ -285,7 +291,7 @@ progress {
   height: 100%;
   /* change progress */
   width: 0%;
-  background: darkgreen;
+  background: #385474;
 }
 
 /* blog*/
@@ -301,21 +307,6 @@ progress {
   padding: 0px;
   border-bottom:1px solid rgb(0, 0, 0, 0.5)  ;
 }
-.blog-heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.blog-heading span{
-  color:black;
-}
-.blog-heading h3{
-  font-size: 2.4rem;
-  color: black;
-  font-weight: 600;
-
-}
 .blog-container{
   display: flex;
   justify-content: center;
@@ -325,13 +316,13 @@ progress {
 }
 .blog-box{
  width: 300px;
- background-color:#ffffff ;
+ background-color:#d8d8d8 ;
  border: 1px solid #ececec;
  margin: 20px;
  height: 400px;
  border-radius: 5%;
  border-top-left-radius: 0;
- border: 3px solid #095b09; 
+ border: 3px solid #385474;; 
 }
 .blog-img{
   width:50%;
