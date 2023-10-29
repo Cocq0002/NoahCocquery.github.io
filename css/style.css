@@ -30,12 +30,17 @@ body{
 .side-menu-text-style{
   color:black;
   font-weight: 500;
-  padding: 20px 0;
+  padding: 10px 0;
+  padding-left: 20px;
   display: block;
   text-transform: capitalize;
   text-decoration: none;
   transition: 0.5 ease-out;
-  font-size: 20px;
+  font-size: 15px;
+}
+.list-side-menu-style a:hover{
+  color:#1aa3da;
+  transition: all 0.3s;
 }
 .menu-input{
   display: none;
@@ -186,23 +191,24 @@ padding-bottom:5%;
   font-size: 19px;
   margin: 0 0 0 0;
   font-family: 'Times New Roman', Times, serif;
+  padding-top: 2%;
 }
 .faq-text-style{
   width: 800px;
   font-family: 'Times New Roman', Times, serif;
   margin:  0 0 0 5px;
-  background-color: rgba(233, 226, 226, 0.966);
-  border: 3px solid darkgoldenrod;
-  border-radius: 5%;
+  background-color: #C7D8DF;
+  margin-top: 2%;
 }
 .faq-container{
   background-color:lightgray;
   height: auto;
+  padding-bottom: 2%;
   width: 1000px;
   margin-left:auto ;
   margin-right: auto;
   border-radius: 10%;
-  border: 3px solid #385474; ; 
+  border: 3px solid #385474;  
 }
 .faq-content{
   padding:  2% 0 0 5%;
@@ -211,7 +217,7 @@ padding-bottom:5%;
 
 .mainSectionProfile {
   margin-left: 25%;
-  padding-right: 0%;
+  padding-right: 0;
   display: flex;
   padding-top: 5%;
 }
@@ -234,8 +240,9 @@ padding-bottom:5%;
   height: 300px;
   width: 300px 
 };
-.list-box h3{
-  text-align: center;
+.list-box .h3{
+  text-align: left;
+  color: #1aa3da;
 }
 .list-container{
   margin: auto;
@@ -249,6 +256,7 @@ padding-bottom:5%;
   position:relative;
   border: 3px solid #385474;
   border-radius: 5%;
+  margin-right: 5%;
 }
 /* dashboard*/
 .dashboard-style{
@@ -342,8 +350,8 @@ progress {
   flex-direction: column;
 }
 .blog-text span{
-  color: #f33c3c;
-  font-size: 0.9rem;
+  color: #4c74a2;
+  font-size: 1.5rem;
 }
 .blog-text .blog-title{
   font-size: 1.3rem;
@@ -351,7 +359,7 @@ progress {
   color: #272727;
 }
 .blog-text .blog-title:hover{
-  color:#f33c3c;
+  color:#1aa3da;
   transition: all ease 0.3;
 }
 .blog-text p{
@@ -368,7 +376,7 @@ progress {
   color: #0f0f0f;
 }
 .blog-text a:hover{
-  color:#f33c3c;
+  color:#1aa3da;
   transition: all ease 0.3s;
 }
 
