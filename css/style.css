@@ -1,6 +1,14 @@
+:root{
+  --backgroundBlue: #385474;
+  --border: #4c74a2;
+  --hover: #1aa3da;
+  --backgroundWhite: white;
+}
+
+
 
 body{
-  background-color: white ;
+  background-color: var(--backgroundWhite) ;
 }
 /* side bar menu with animation*/
 .slide{
@@ -8,7 +16,7 @@ body{
   z-index: 998;
   width: 180px;
   position: absolute;
-  background-color: white;
+  background-color: var(--backgroundWhite);
   /* or this 63af5c*/
   transition: 0.5s ease;
   transform: translateX(-180px);
@@ -20,7 +28,7 @@ body{
   box-sizing: border-box;
 }
 .menu-header{
-  color: #385474;
+  color: var(--backgroundBlue);
   font-weight: 800;
   text-align: right;
   padding: 10px 0;
@@ -39,7 +47,7 @@ body{
   font-size: 15px;
 }
 .list-side-menu-style a:hover{
-  color:#1aa3da;
+  color:var(--hover);
   transition: all 0.3s;
 }
 .menu-input{
@@ -55,7 +63,7 @@ body{
   z-index:999;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #fff;
+  background-color: var(--backgroundWhite);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 }
@@ -63,7 +71,7 @@ body{
   position: absolute;
   height: 2px;
   width: 20px;
-  background-color: #4c74a2;
+  background-color: var(--border);
   border-radius: 50px;
   transition: 0.3s ease;
 }
@@ -112,12 +120,12 @@ input:checked ~.slide{
   text-transform: capitalize;
   padding-top: 10%;
   margin-bottom: 5%;
-  color: #385474;
+  color: var(--backgroundBlue);
 }
 .index-header-2 {
   text-align: center;
   font-size:30px ;
-  color: #4c74a2;
+  color: var(--border);
 }
 /* text and wrapper*/
 .index-wrapper {
@@ -126,7 +134,7 @@ input:checked ~.slide{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .index-body-text{
-  border:3px solid #4c74a2;
+  border:3px solid var(--border);
   border-radius: 15%;
   background-color: white;
 }
@@ -146,10 +154,17 @@ padding-bottom:5%;
     position:fixed;
     top: 0;
     width: 100%;
-    border: 5px solid #385474;
-    background-color: #4c74a2;
+    
+    border: 5px solid var(--backgroundBlue);
+    background-color: var(--border);
     z-index: 999;
+    display: inline-block;
+    font-family: "arial";
+  }
 
+  .menu-li a:hover{
+    font-size: 30px;
+    transition: 0.5s ease;
   }
   
   .menu-li {
@@ -161,11 +176,13 @@ padding-bottom:5%;
     border-radius: 20%;
   }
     
-  .menu-li a {
+  .menu-li a { 
     color:wheat;
     font-weight: bold;
     text-transform: uppercase;
+ 
   }
+ 
   body{
     margin: 0px;
   }
@@ -173,7 +190,7 @@ padding-bottom:5%;
 .cool-links-container{
   position: relative;
   bottom: 175px;
-  border:5px solid #4c74a2;
+  border:5px solid var(--border);
   height: 200px;
   width: 200px;
   margin: auto;
@@ -208,7 +225,7 @@ padding-bottom:5%;
   margin-left:auto ;
   margin-right: auto;
   border-radius: 10%;
-  border: 3px solid #385474;  
+  border: 3px solid var(--backgroundBlue);  
 }
 .faq-content{
   padding:  2% 0 0 5%;
@@ -229,7 +246,7 @@ padding-bottom:5%;
   font-size: 15px;
 }
 .profile-body-text{
-  border:3px dotted #385474;
+  border:3px dotted var(--backgroundBlue);
   border-radius: 15%;
   padding: 0 5% 0 5%;
   height:auto ;
@@ -254,7 +271,7 @@ padding-bottom:5%;
   height: auto;
   width: 49%;
   position:relative;
-  border: 3px solid #385474;
+  border: 3px solid var(--backgroundBlue);
   border-radius: 5%;
   margin-right: 5%;
 }
@@ -265,10 +282,10 @@ padding-bottom:5%;
   font-size: 20px;
 }
 .dashboard-container{
-  background-color: #4c74a2;
+  background-color: var(--border);
 }
 table, th, td{
-  border: 3px solid #385474;;
+  border: 3px solid var(--backgroundBlue);
   background-color: lightgray;
 }
 /* progress bar */
@@ -301,7 +318,7 @@ progress {
   height: 100%;
   /* change progress */
   width: 0%;
-  background: #385474;
+  background: var(--backgroundBlue);
 }
 
 /* blog*/
@@ -332,7 +349,7 @@ progress {
  height: 400px;
  border-radius: 5%;
  border-top-left-radius: 0;
- border: 3px solid #385474;; 
+ border: 3px solid var(--backgroundBlue);; 
 }
 .blog-img{
   width:50%;
@@ -350,7 +367,7 @@ progress {
   flex-direction: column;
 }
 .blog-text span{
-  color: #4c74a2;
+  color: var(--border);
   font-size: 1.5rem;
 }
 .blog-text .blog-title{
@@ -359,7 +376,7 @@ progress {
   color: #272727;
 }
 .blog-text .blog-title:hover{
-  color:#1aa3da;
+  color:var(--hover);
   transition: all ease 0.3;
 }
 .blog-text p{
@@ -376,7 +393,7 @@ progress {
   color: #0f0f0f;
 }
 .blog-text a:hover{
-  color:#1aa3da;
+  color:var(--hover);
   transition: all ease 0.3s;
 }
 
